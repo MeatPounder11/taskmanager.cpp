@@ -1,0 +1,3 @@
+taskmanager 2 can update remove taks, it reports data to json as multiple secure fallbacks for errors.
+to add a task ./taskmanager2 add "buy bread"
+to update a task ./taskmanager2 update id(?) todo/in_progress/done
