@@ -59,7 +59,7 @@ int main(int argc, char* argv[]) {
 
     if (comando == "add") {
         if (argc < 3) {
-            std::cerr << "Errore: manca la descrizione del task\n";
+            std::cerr << "Errore: manca la descrizione della task\n";
             return 1;
         }
 
@@ -80,12 +80,12 @@ int main(int argc, char* argv[]) {
 
         tasks.push_back(nuovo_task);
         saveTasks(file, tasks);
-        std::cout << " Task aggiunto con successo (ID: " << nuovo_id << ")\n";
+        std::cout << " Task aggiunta con successo (ID: " << nuovo_id << ")\n";
     }
 
     else if (comando == "list") {
         if (tasks.empty()) {
-            std::cout << " Nessun task presente.\n";
+            std::cout << " Nessuna task presente.\n";
         } else {
             for (const auto& task : tasks) {
                 std::cout << "[" << task["id"] << "] "
