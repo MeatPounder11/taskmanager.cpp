@@ -2,3 +2,4 @@ taskmanager 2 can update and remove taks, it reports data to json and has multip
 to add a task ./taskmanager2 add "buy bread"
 to update a task ./taskmanager2 update id(?) todo/in_progress/done
 to show the list ./taskmanager2 list
+i fetched the time of the day part on copilot
