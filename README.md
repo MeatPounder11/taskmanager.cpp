@@ -8,7 +8,7 @@ SELECT RAW
 
 using json = nlohmann::json;
 
-// Struttura di un task
+// Struttura di una task
 struct Task {
     int id;
     std::string description;
