@@ -1,3 +1,4 @@
+to visualize more crearly the code select raw
 taskmanager 2 can update and remove taks, it reports data to json and has multiple secure fallbacks for errors.
 to add a task ./taskmanager2 add "buy bread"
 to update a task ./taskmanager2 update id(?) todo/in_progress/done
